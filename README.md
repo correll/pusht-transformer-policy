@@ -2,6 +2,19 @@
 
 This project trains and evaluates a transformer policy for the PushT manipulation task.
 
+## Reference article
+
+This notebook is based on and inspired by:
+
+- Nikolaus Correll, *Robotic Behavior Cloning I: Auto-regressive Transformers*  
+	https://medium.com/correll-lab/robotic-behavior-cloning-i-auto-regressive-transformers-a7be623f4291
+
+### Credit for evaluation code
+
+The autoregressive rollout/evaluation structure in this repository (observation deque,
+predict-then-execute horizon loop, reward/coverage scoring, and GIF export) follows the
+approach presented in the Medium article above.
+
 ## Demo
 
 ![PushT rollout demo](vis.gif)
@@ -51,4 +64,4 @@ Then open `pusht.ipynb` and run cells in order.
 ## Notes
 
 - The repository ignores large dataset artifacts (`*.zarr`, `*.zip`) by default.
-- `vis.gif` is generated during evaluation and is not versioned by default.
+- `vis.gif` is generated during evaluation and is included for demo visualization.
