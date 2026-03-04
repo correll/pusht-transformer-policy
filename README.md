@@ -34,6 +34,7 @@ Main notebook: `pusht.ipynb`
 ## Files
 
 - `pusht.ipynb` — end-to-end notebook (data, model, env, eval)
+- `checkpoints/pusht_transformer.pt` — saved model checkpoint
 - `requirements.txt` — pinned local environment
 - `requirements-colab.txt` — lightweight Colab setup
 
