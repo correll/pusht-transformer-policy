@@ -1,0 +1,25 @@
+# Runtime dependencies for Google Colab
+# Install with: pip install -r requirements-colab.txt
+
+# Core
+numpy==2.4.2
+scipy==1.17.1
+tqdm==4.67.3
+
+# ML
+torch
+
+# Data and IO
+zarr==3.1.5
+gdown==5.2.1
+
+# Env / simulation
+gymnasium==1.2.3
+pymunk==7.2.0
+shapely==2.1.2
+
+# Visualization
+matplotlib==3.10.8
+imageio==2.37.2
+scikit-image==0.26.0
+scikit-video==1.1.11

@@ -1,0 +1,14 @@
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Local artifacts
+vis.gif
+
+# PushT dataset artifacts (large)
+*.zarr.zip
+*.zarr/
