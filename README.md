@@ -2,6 +2,10 @@
 
 This project trains and evaluates a transformer policy for the PushT manipulation task.
 
+## Demo
+
+![PushT rollout demo](vis.gif)
+
 ## What it does
 
 - Loads PushT demonstration data from a Zarr replay dataset.
